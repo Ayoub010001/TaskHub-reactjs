@@ -1,0 +1,69 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Website Redesign",
+        "description": "Redesign the company website with modern UI",
+        "createdAt": "2023-05-15T10:00:00Z"
+      },
+      {
+        "id": 2,
+        "name": "Mobile App Development",
+        "description": "Develop a mobile app for iOS and Android",
+        "createdAt": "2023-06-01T09:15:00Z"
+      },
+      {
+        "id": 3,
+        "name": "Marketing Campaign",
+        "description": "Q3 Marketing campaign planning and execution",
+        "createdAt": "2023-06-20T08:00:00Z"
+      }
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "projectId": 1,
+        "title": "Design homepage mockup",
+        "description": "Create a mockup for the new homepage design",
+        "status": "completed",
+        "priority": "high",
+        "createdAt": "2023-05-15T10:30:00Z"
+      },
+      {
+        "id": 2,
+        "projectId": 1,
+        "title": "Implement responsive navbar",
+        "description": "Create a responsive navigation bar for the website",
+        "status": "in_progress",
+        "priority": "medium",
+        "createdAt": "2023-05-20T14:30:00Z"
+      },
+      {
+        "id": 3,
+        "projectId": 2,
+        "title": "Design app wireframes",
+        "description": "Create wireframes for all app screens",
+        "status": "to_do",
+        "priority": "high",
+        "createdAt": "2023-06-01T09:30:00Z"
+      },
+      {
+        "id": 4,
+        "projectId": 2,
+        "title": "Research API integration options",
+        "description": "Research and document API integration options for the app",
+        "status": "completed",
+        "priority": "medium",
+        "createdAt": "2023-06-02T10:00:00Z"
+      },
+      {
+        "id": 5,
+        "projectId": 3,
+        "title": "Brainstorm campaign ideas",
+        "description": "Organize a brainstorming session for campaign ideas",
+        "status": "to_do",
+        "priority": "high",
+        "createdAt": "2023-06-20T08:30:00Z"
+      }
+    ]
+  }
